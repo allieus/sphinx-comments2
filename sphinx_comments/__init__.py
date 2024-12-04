@@ -3,7 +3,7 @@
 import os
 from textwrap import dedent
 
-__version__ = "0.0.3"
+__version__ = "0.1.0"
 
 
 def shp_static_path(app):
@@ -77,7 +77,7 @@ def activate_comments(app, config):
             script.setAttribute("label", "{label}");
             script.setAttribute("crossorigin", "{crossorigin}");
 
-            sections = document.querySelectorAll("div.section");
+            sections = document.querySelectorAll("section");
             if (sections !== null) {{
                 section = sections[sections.length-1];
                 section.appendChild(script);

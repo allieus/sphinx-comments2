@@ -19,13 +19,13 @@ for line in init.read_text().split("\n"):
 version = line.split(" = ")[-1].strip('"')
 
 setup(
-    name="sphinx-comments",
+    name="sphinx-comments2",
     version=version,
     description="Add comments and annotation to your documentation.",
     long_description=readme_text,
     long_description_content_type="text/markdown",
     author="Executable Book Project",
-    url="https://github.com/executablebooks/sphinx-comments",
+    url="https://github.com/allieus/sphinx-comments2",
     license="MIT License",
     packages=find_packages(),
     classifiers=["License :: OSI Approved :: MIT License"],
